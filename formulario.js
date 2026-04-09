@@ -1,3 +1,4 @@
+console.log("JS funcionando");
 const form = document.getElementById("miFormulario");
 
 if (form) {
