@@ -1,38 +1,38 @@
 <!DOCTYPE html>
-<script src="formulario.js"></script>
 <html>
 <head>
 <title>Registro de Usuario</title>
 <link rel="stylesheet" href="styles.css">
 </head>
-<body>
 
+<body>
 
 <div class="banner">
     <h1>Registro de Usuario</h1>
 </div>
 
 <div class="form-container">
-<form>
+
+<form id="miFormulario">
 
 <div>
 <label>Nombre Completo:</label>
-<input type="text" required>
+<input type="text">
 </div>
 
 <div>
 <label>Fecha de Nacimiento:</label>
-<input type="date" required>
+<input type="date">
 </div>
 
 <div>
 <label>Teléfono:</label>
-<input type="tel" required>
+<input type="tel">
 </div>
 
 <div>
 <label>Correo Electrónico:</label>
-<input type="email" required>
+<input type="email">
 </div>
 
 <div>
@@ -54,6 +54,8 @@
 
 </form>
 </div>
+
+<script src="formulario.js"></script>
 
 </body>
 </html>
